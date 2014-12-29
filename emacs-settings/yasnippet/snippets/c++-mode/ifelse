@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+#name : ifelse
+#key : ifelse
+#contributor : feigo.zj
+# --
+    if (${1:condition})
+    {
+        $0
+    }
+    else
+    {
+    		
+    }

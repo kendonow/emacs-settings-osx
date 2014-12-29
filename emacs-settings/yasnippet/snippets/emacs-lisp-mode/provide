@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+#name : provide
+#key : provide
+#contributor : feigo.zj
+# --
+(provide '`(insert 
+(car (split-string (file-name-nondirectory (buffer-file-name)) "\\.")))
+` )

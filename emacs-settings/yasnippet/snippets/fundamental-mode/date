@@ -1,0 +1,4 @@
+#name : (current date)
+# key: date
+# --
+`(format-time-string "%Y年%m月%d日" (current-time))`

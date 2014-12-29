@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+#name : uml
+#key : uml
+#contributor : feigo.zj
+# --
+#+BEGIN_SRC plantuml :file ${1:export-file-name} :cmdline -charset UTF-8
+title ${0}
+#+END_SRC
+   

@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+#name : newDigraph
+#key : newDigraph
+#contributor : feigo.zj
+# --
+digraph G {
+    nodesep=0.5;
+    ranksep=0.6   ;
+    rankdir=TB   ;
+    margin=0.01     ;
+    fontsize=9;
+
+    rankType= min;
+    node [color=red,fontname=Courier,width=.1,height=.1 ,shape=box] 
+    edge [color=blue, style=dashed ,arrowhead=open,arrowtail=open];
+
+
+}

@@ -1,0 +1,5 @@
+
+
+
+;(replace-regexp "\\([0-9]\\)\\1\\(\\w+\\)" "{{{clr(red,\\1\\1\\2)}}}" nil (point-min) (point-max))
+
